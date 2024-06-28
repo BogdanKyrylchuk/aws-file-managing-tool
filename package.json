@@ -1,0 +1,19 @@
+{
+  "name": "aws-file-manage-tool",
+  "version": "1.0.0",
+  "description": "This is a tool for managing AWS S3 Bucket files",
+  "keywords": ["aws", "cli", "nodejs"],
+  "author": "bogdankyrylchuk@gmail.com",
+  "license": "ISC",
+  "main": "showAllFiles.js",
+  "bin": {
+    "show-all": "showAllFiles.js",
+    "upload": "uploadFile.js",
+    "show-specific-file": "showSpecificFile.js",
+    "delete-specific-file": "deleteSpecificFile.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1650.0",
+    "dotenv": "^16.4.5"
+  }
+}
